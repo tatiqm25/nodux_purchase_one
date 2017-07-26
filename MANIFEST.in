@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nodux_purchase_one *.css
+recursive-include nodux_purchase_one *.csv
+recursive-include nodux_purchase_one *.html
+recursive-include nodux_purchase_one *.ico
+recursive-include nodux_purchase_one *.js
+recursive-include nodux_purchase_one *.json
+recursive-include nodux_purchase_one *.md
+recursive-include nodux_purchase_one *.png
+recursive-include nodux_purchase_one *.py
+recursive-include nodux_purchase_one *.svg
+recursive-include nodux_purchase_one *.txt
+recursive-exclude nodux_purchase_one *.pyc
