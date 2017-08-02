@@ -7,12 +7,17 @@
  "doctype": "Report", 
  "idx": 0, 
  "is_standard": "Yes", 
- "modified": "2017-05-11 17:28:04.826327", 
+ "modified": "2017-08-02 16:04:45.991626", 
  "modified_by": "Administrator", 
  "module": "Nodux Purchase One", 
  "name": "Report Payable", 
  "owner": "Administrator", 
  "ref_doctype": "Purchases Invoice One", 
  "report_name": "Report Payable", 
- "report_type": "Script Report"
+ "report_type": "Script Report", 
+ "roles": [
+  {
+   "role": "Nodux One"
+  }
+ ]
 }

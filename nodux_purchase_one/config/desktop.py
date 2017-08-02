@@ -6,18 +6,19 @@ def get_data():
 	return [
 		{
 			"module_name": "Nodux Purchase One",
-			"color": "darkgrey",
-			"icon": "octicon octicon-file-directory",
+			"color": "#3498db",
+			"icon": "octicon octicon-repo",
 			"type": "module",
-			"label": _("Nodux Purchase One")
+			"hidden": 1
 		},
 
 		{
-			"module_name": "Nodux Purchase One",
+			"module_name": "Purchase",
 			"_doctype": "Purchases Invoice One",
 			"color": "#f39c12",
 			"icon": "octicon octicon-package",
 			"type": "link",
 			"link": "List/Purchases Invoice One"
 		}
+
 	]
